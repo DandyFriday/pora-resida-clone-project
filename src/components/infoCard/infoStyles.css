@@ -1,0 +1,96 @@
+
+   
+  .info_image_section,
+  .info_text_section {
+    flex-basis: 45%;
+    margin: 0 2rem;
+  }
+  
+  .info_image_section img {
+    width: 430px;
+    height: 250px;
+    margin-top: 30px;   
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    object-fit:contain;
+  }
+  
+  .info_text_section {
+    text-align: left;
+  }
+  .header_text{
+    color:#1f4b43;
+    font-size: medium;
+  }
+  
+  .info_text_section div p {
+    color: #1f4b43;    
+    font-size: 30px;
+    font-weight:lighter;
+    padding-right: 10rem;
+    margin: 0, 0 1rem, 0;
+  }
+  .info_text_section div span { 
+    color: #1f4b43;    
+    font-size: 33px;
+    font-weight: bolder;
+  }
+  
+  
+  @media (max-width: 841px) {
+    .info_container {
+      padding: 2rem;
+      height: max-content;
+      flex-direction: column;
+    }
+  
+    .info_text_section {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .info_image_section,
+    .info_text_section {
+      flex-basis: 100%;
+    }
+  
+    .info_text_section {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .info_text_section div p {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      font-family: medium;
+      padding-right: 0rem;
+      margin: 0 0 1rem 0;
+    
+    }
+  
+    .info_text_section div span {
+      font-size: 28px;
+    }  
+  
+    .info_image_section img {
+        width: 430px;
+        height: 250px;
+        margin-top: 30px;   
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        overflow: visible;
+        object-fit:contain;
+      }
+      
+    .info_image_section {
+      width: 80vw;
+    }
+  }

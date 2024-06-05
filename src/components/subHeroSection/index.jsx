@@ -17,7 +17,7 @@ const SubHeroSection = () => {
             backgroundColor:"#dba94d",
             color:"#1f4b43",
             padding:"7px 12px",
-            width:"256px",
+            width:"250px",
         }} 
         btn_name={"Download our app"}
         rightIcon={<GoArrowRight size={22}/>

@@ -4,9 +4,9 @@ import "./buttonStyles.css"
 const Button = ({style, btn_name, outline, rightIcon, leftIcon}) => {
   return (
     <button style={style} className={`${outline ? "outline" : "btn"}`}> 
-    { leftIcon && <span>{leftIcon}</span>}
+    { leftIcon && <span className='left_icon'>{leftIcon}</span>}
     {btn_name}    
-    {rightIcon && <span>{rightIcon}</span> }  
+    {rightIcon && <span className='right_icon'>{rightIcon}</span> }  
     </button>
   );
 }
