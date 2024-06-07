@@ -3,8 +3,8 @@ import "./infoStyles.css";
 import viewer from "../../assets/viewer.png";
 const InfoCard = () => {
   return (
-    <div className="info_container flex">
-      {/* left */}
+    <div className="info_container">
+      {/* left */} 
       <section className="info_image_section">
         <img src={viewer} alt="info_img" className="image" />
       </section>
@@ -20,7 +20,7 @@ const InfoCard = () => {
         </div>
         <div className="text_body">Resida aims to bridge the gap between potential tenants and<br/> available properties. This app is not just a tool; it's a solution for
         <br/> individuals and families who are navigating the challenging terrain
-        <br/> of apartment hunting in a new or familiar city. 
+        <br/> of apartment hunting in a new or familiar city {""}. 
 
         </div> 
             

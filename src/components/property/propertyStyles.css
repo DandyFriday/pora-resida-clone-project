@@ -1,18 +1,18 @@
-   .info_container {
+/* .prop_container {
     padding: 2rem 10rem;
-    background-image: url("../../assets/default.png");
+    background-image: url("../../assets/dh_bg_image.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-size: cover;
-  }
+} */
    
-  .info_image_section,
-  .info_text_section {
+  .prop_image_section,
+  .prop_text_section {
     flex-basis: 45%;
     margin: 0 2rem;
   }
   
-  .info_image_section img {
+  .prop_image_section img {
     width: 430px;
     height: 250px;
     margin-top: 30px;   
@@ -23,63 +23,52 @@
     object-fit:contain;
   }
   
-  /* .info_text_section {
+  .prop_text_section {
     text-align: left;
-  } */
-  .header_text{
-    color:#1f4b43;
-    font-size: medium;
-    padding-left: 15px;
+  
   }
   
-  .info_text_section div p {
+  .prop_text_section div p {
     color: #1f4b43;    
     font-size: 30px;
     font-weight:lighter;
     padding-right: 10rem;
     margin: 0, 0 1rem, 0;
   }
-  .info_text_section div span { 
+  .prop_text_section div span { 
     color: #1f4b43;    
     font-size: 33px;
     font-weight: bolder;
-    
-  }  
-.info_text_section {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    margin-top:-14rem;
-    padding-left: 160px;
-}
+  }
   
   
   @media (max-width: 841px) {
-    .info_container {
+    .prop_container {
       padding: 2rem;
       height: max-content;
       flex-direction: column;
-      
     }
   
-    .info_text_section {
+    .prop_text_section {
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: center;
-      text-align: left;
-      margin-top: 5px;
-      padding: 0%;
     }
   
-    .info_image_section,
-    .info_text_section {
+    .prop_image_section,
+    .prop_text_section {
       flex-basis: 100%;
-    }    
+    }
+/*   
+    .os_text_section {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    } */
   
-    .info_text_section div p {
+    .prop_text_section div p {
       font-size: 16px;
       font-weight: bold;
       text-align: center;
@@ -89,11 +78,11 @@
     
     }
   
-    .info_text_section div span {
-      font-size: 28px;  
+    .prop_text_section div span {
+      font-size: 28px;
     }  
   
-    .info_image_section img {
+    .prop_image_section img {
         width: 430px;
         height: 250px;
         margin-top: 30px;   
@@ -104,10 +93,7 @@
         object-fit:contain;
       }
       
-    .info_image_section {
+    .prop_image_section {
       width: 80vw;
-    }
-    .header_text{
-      font-size: 15px;
     }
   }

@@ -25,6 +25,7 @@
   
   .os_text_section {
     text-align: left;
+  
   }
   
   .os_text_section div p {
@@ -59,13 +60,13 @@
     .os_text_section {
       flex-basis: 100%;
     }
-  
+/*   
     .os_text_section {
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: center;
-    }
+    } */
   
     .os_text_section div p {
       font-size: 16px;

@@ -5,7 +5,7 @@
   }
   
   .wrapper {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +14,7 @@
   }
   
   .containers {
-    width: 80%;
-  
+    width: 80%;  
     display: flex;
     justify-content: space-between;
     align-items: center;

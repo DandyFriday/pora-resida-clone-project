@@ -13,6 +13,8 @@ import OurExperience from '../../components/ourExperience';
 import DreamHome from '../../components/dreamHome';
 import Comprehensive from '../../components/comprehensive';
 import OfficeSpace from '../../components/officeSpace';
+import Property from '../../components/property';
+import FindHome from "../../components/findHome";
 
 
 const LandingPage = () => {
@@ -21,7 +23,7 @@ const LandingPage = () => {
       <Header /> 
       <HeroSection/> 
       <SubHeroSection />      
-      <InfoCard />
+      <InfoCard/>
       {/* Our Experience */}
       <OurExperience />
       {/*Your Dream Home */}
@@ -29,8 +31,11 @@ const LandingPage = () => {
       {/* Comprehensive */}
       <Comprehensive />
       {/* Featured Properties and Card */}
-      <FeaturedProperties />      
+      <FeaturedProperties /> 
+      <Property />    
       <Discover /> 
+      {/* Find Home */}
+      <FindHome />
       <OfficeSpace />    
       <AppStores />                 
       

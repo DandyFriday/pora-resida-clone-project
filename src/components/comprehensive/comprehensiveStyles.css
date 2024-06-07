@@ -1,14 +1,14 @@
-/* .dh_container {
+ .cmp_container {
     padding: 2rem 10rem;
-    background-image: url("../../assets/dh_bg_image.svg");
+    background-image: url("../../assets/default.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
   }
-   */
+   
   .cmp_image_section,
   .fys_text_section {
-    flex-basis: 45%;
+    flex-basis: 60%;
     margin: 0 1rem;
   }
   

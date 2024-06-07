@@ -9,7 +9,7 @@ const OurExperience = () => {
     <main className='our_exp_container'>
         <section className='boxes_container flex'>
 
-            <div className='box1'>
+          <div className='box1'>
               <img src={frame1} alt='our_exp1' className='exp_img1'/>          
             </div>
             <section className='box2'>
@@ -17,15 +17,15 @@ const OurExperience = () => {
             </section>
             <div className='box3'>
               <img src={frame3} alt='our_exp3' className='exp_img3'/>                            
-            </div> 
+          </div> 
                   
         </section>
-        <div className='text flex'>
+        <div className='text'>
           <p>
-            {`Our Experience guarantees 
-            unmatched
+            Our Experience guarantees 
+            unmatched <br/>
             proficiency 
-            and excellence.`}
+            and excellence.
           </p>
 
         </div>
